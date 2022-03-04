@@ -1,9 +1,8 @@
-from concurrent.futures import process
 ## this program reads file pmalli.txt which contains words and numbers
 ## if pmalli.txt contains palindrome, then it writes it to another file called ptulos.txt
 ## also prints out if line is number or palindrome or is not a palindrome
 #################################################################################################
-
+from concurrent.futures import process
 def openFileR(): # open the pmalli file to read
     try: 
         f=open('.\palindrome\pmalli.txt','r')
