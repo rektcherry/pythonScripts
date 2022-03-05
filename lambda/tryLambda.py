@@ -1,0 +1,2 @@
+# print the fist letter of a word * lenght of the word and the second word backwards 
+x = list(map(lambda a, b: print(f'{a[0]*len(a)} {b[::-1]}'), [input('Give a word: ')], [input('Give second word: ')]))
